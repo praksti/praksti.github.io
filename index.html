@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mywebsite</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Lab KSA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="view_mhs.php">Mahasiswa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.php">Login</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Container 1 -->
+<div class="container-md">
+    <div class="jumbotron jumbotron-fluid" >
+        <div class="container " >
+          <h1 class="display-4">Selamat Datang di Laboratorium Komputasi dan Sistem Agroindustri</h1>
+          <p class="lead">Laboratorium terbaik untuk masa depan cerah anda.</p>
+        </div>
+      </div>
+      <!-- Slider-->
+        <div id="carouselExampleIndicators" class="carousel slide  border-bottom pb-3 mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/a.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/b.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/c.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/d.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  
+</div>   
+
+<!--Container 2-->
+<div class="border-bottom pb-3 mb-5 container text-center shadow">
+    <!--Card-->
+    <h1><b>PRAKTIKUM LAB KSA</b></h1>
+    <div class="card-group">
+  <div class="card">
+    <img src="img/a.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Gambar Teknik</h5>
+      <p class="card-text">Mata kuliah ini bertujuan untuk mengajarkan mahasiswa tentang prinsip-prinsip dasar dalam pembuatan dan interpretasi gambar teknik.</p>
+      <p class="card-text"><small class="text-muted">TPI61009</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/b.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pemrograman Komputer</h5>
+      <p class="card-text">Mata kuliah ini bertujuan untuk mengajarkan mahasiswa tentang dasar-dasar pemrograman dan rekayasa sistem agroindustri.</p>
+      <p class="card-text"><small class="text-muted">TPI62015</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/c.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Statistika Industri</h5>
+      <p class="card-text">Mata kuliah ini bertujuan untuk mengajarkan mahasiswa tentang penerapan statistika dalam agroindustri.</p>
+      <p class="card-text"><small class="text-muted">TPI61024</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/d.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Sistem Teknologi Informasi</h5>
+      <p class="card-text">Mata kuliah ini bertujuan untuk memberikan pemahaman tentang konsep dasar, prinsip, dan aplikasi teknologi informasi dalam agroindustri.</p>
+      <p class="card-text"><small class="text-muted">TPI62042</small></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Footer-->
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" href="instagram.com">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled">Disabled</a>
+  </li>
+</ul>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
